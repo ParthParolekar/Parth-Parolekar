@@ -17,13 +17,26 @@
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
-
+.relative {
+  position: relative;
+}
 .container-vertical {
+  max-width: 700px;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
+
+.height-30vh {
+  height: 30vh;
+}
+
+.width {
+  width: 40px;
+}
+
 .container-horizontal {
   display: flex;
   justify-content: space-around;
@@ -64,6 +77,11 @@ img {
 .title {
   font-size: 2rem;
   color: var(--primary);
+}
+
+.tiny {
+  font-weight: 300;
+  font-size: 0.8rem;
 }
 
 .highlight {
@@ -136,6 +154,10 @@ img {
   color: #292626;
   font-size: 1.5rem;
   transition: all 0.5s ease;
+}
+
+.margin-side-1rem {
+  margin: 0 1rem;
 }
 
 a {
