@@ -1,0 +1,171 @@
+:root {
+  --primary: #ff2929;
+  --secondary: #292626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.navigation {
+  background-color: var(--primary);
+  padding: 1rem 0rem;
+  color: var(--secondary);
+  padding: 2rem 0;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.relative {
+  position: relative;
+}
+.container-vertical {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.height-30vh {
+  height: 30vh;
+}
+
+.width {
+  width: 40px;
+}
+
+.container-horizontal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin: 0 40px;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+  background: white;
+}
+
+img {
+  width: 500px;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.tiny {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.highlight {
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+.padding-4rem {
+  padding: 4rem;
+}
+
+.padding-1rem {
+  padding: 1rem;
+}
+
+.margin-top-4rem {
+  margin-top: 4rem;
+}
+
+.heading {
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.secondary {
+  background: var(--secondary);
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: var(--primary);
+  padding: 1rem 0rem;
+  color: var(--secondary);
+  padding: 2rem 0;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.btn-primary {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.btn-color-1 {
+  background-color: white;
+  color: #292626;
+  transition: all 0.5s ease;
+}
+
+.btn-color-1:hover {
+  background-color: #292626;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+}
+
+.btn-color-2 {
+  background-color: #292626;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.btn-color-2:hover {
+  background-color: white;
+  color: #292626;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+}
+
+.margin-side-1rem {
+  margin: 0 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
