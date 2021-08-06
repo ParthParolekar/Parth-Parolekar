@@ -50,6 +50,18 @@
   align-items: center;
 }
 
+.skills-logo {
+  height: 10vh;
+  width: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fab {
+  font-size: 3rem;
+}
+
 .brand {
   font-weight: bold;
   font-size: 1.5rem;
