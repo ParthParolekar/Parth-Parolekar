@@ -29,6 +29,10 @@
   align-items: center;
 }
 
+section {
+  width: 90%;
+}
+
 .card {
   background: rgb(247, 245, 245);
   padding: 1rem;
@@ -187,4 +191,68 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 770px) {
+  header {
+    width: 70%;
+  }
+  img {
+    width: 300px;
+  }
+  footer {
+    width: 100%;
+  }
+
+  section {
+    width: auto;
+  }
+
+  .skills-logo {
+    width: 70%;
+  }
+
+  .container-vertical {
+    width: 100%;
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  footer {
+    width: 100%;
+  }
+  section {
+    width: 68%;
+  }
+  .skills-logo {
+    width: 70%;
+    font-size: 0.3rem;
+    overflow: visible;
+  }
+  .heading {
+    text-align: center;
+  }
+  .fab {
+    font-size: 2rem;
+  }
+  .title {
+    text-align: center;
+  }
+  .card {
+    width: auto;
+  }
+  .home-center {
+    width: 10%;
+  }
+  .project-center {
+    width: 10%;
+  }
+  .blog-center {
+    width: 10%;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
 }
