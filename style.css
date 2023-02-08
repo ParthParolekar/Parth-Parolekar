@@ -29,10 +29,6 @@
   align-items: center;
 }
 
-section {
-  width: 90%;
-}
-
 .card {
   background: rgb(247, 245, 245);
   padding: 1rem;
@@ -55,11 +51,24 @@ section {
 }
 
 .skills-logo {
-  height: 10vh;
-  width: 70vh;
+  /* height: 10vh; */
+  /* width: 70vh; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-logo a {
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* padding: 1rem; */
+  border-radius: 100%;
 }
 
 .fab {
@@ -94,13 +103,14 @@ section {
   background: white;
 }
 
-img {
+.hero {
   width: 500px;
 }
 
 .title {
   font-size: 2rem;
   color: var(--primary);
+  text-align: center;
 }
 
 .tiny {
@@ -198,23 +208,25 @@ a {
   header {
     width: 70%;
   }
-  img {
+  .hero {
     width: 300px;
   }
   footer {
     width: 100%;
   }
 
-  section {
-    width: auto;
-  }
-
   .skills-logo {
-    width: 70%;
+    width: 100%;
+    font-size: 0.3rem;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 
   .container-vertical {
-    width: 100%;
+    /* width: 100%; */
     font-size: 0.5rem;
   }
 }
@@ -224,12 +236,10 @@ a {
     width: 100%;
   }
   section {
-    width: 68%;
+    height: max-content;
   }
   .skills-logo {
-    width: 70%;
-    font-size: 0.3rem;
-    overflow: visible;
+    height: 100%;
   }
   .heading {
     text-align: center;
